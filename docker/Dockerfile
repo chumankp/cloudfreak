@@ -1,3 +1,3 @@
-FROM openjdk:11.0.5-jdk
+FROM amazoncorretto:21
 ADD *.jar app.jar
 ENTRYPOINT java -jar app.jar
